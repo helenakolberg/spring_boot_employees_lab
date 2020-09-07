@@ -17,7 +17,7 @@ class EmployeeserviceApplicationTests {
 	}
 
 	@Test
-	public void createPirate() {
+	public void createEmployee() {
 		Employee jack = new Employee("Jack", 30, "jack@gmail.com");
 		employeeRepository.save(jack);
 	}
